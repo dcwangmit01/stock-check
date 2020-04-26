@@ -28,7 +28,7 @@ seconds_between_checks = 60 * 30  # 5 minutes
 url = 'https://www.roguefitness.com/the-ohio-bar-cerakote'
 jq_statement = ('.. | objects | select(.product_name)' + ' | select(.product_name | test("Chrome") | not )' +
                 ' | select(.product_name | test("(Blue|Green|Red|Orange) Shaft"))' +
-                ' | select(.isInStock==false) | .product_name')
+                ' | select(.isInStock==true) | .product_name')
 
 #####################################################################
 # Click Code
