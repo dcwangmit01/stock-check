@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipdb = "*"
+coverage = "*"
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+yapf = "*"
+pep8-naming = "*"
+
+[packages]
+bs4 = "*"
+requests = "*"
+pyjq = "*"
+PyYAML = "*"
+click = "*"
+jinja2 = "*"
+python-json-logger = "*"
+sh = "*"
+structlog = "*"
+pyopenssl = "*"
+
+[requires]
+python_version = "3.6"
